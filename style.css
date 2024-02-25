@@ -1,0 +1,40 @@
+body {
+    background-color: #951f25;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .subtitle {
+    color: #fff;
+    font-size: 25px;
+  }
+  
+  .button {
+    text-decoration: none;
+    background-color: #084485;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  
+  .button:hover {
+    background-color: #00cc44;
+  }
