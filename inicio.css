@@ -1,0 +1,87 @@
+body {
+    background-color: #951f25;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #951f25;
+    padding: 1rem;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header .logo img{
+    height: 70px;
+    width: 60px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.text {
+    width: 50%;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+.text h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.text p {
+    font-size: 1.4rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profe img {
+    width: 150px;
+    max-width: 200px;
+}
+
+.btn {
+    background-color: #084485;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    background-color: #00cc44;
+}

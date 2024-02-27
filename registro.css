@@ -1,0 +1,85 @@
+body {
+	background-color: #951f25;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 60%;
+	height: 80%;
+	background-color: #084485;
+	margin: 10px;
+    margin-left: 50vh;
+    margin-top: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 2rem;
+    border-radius: 25px;
+}
+
+.left-side {
+	flex: 1;
+	margin-right: 2rem;
+}
+
+.left-side img {
+	width: 100%;
+	height: auto;
+}
+
+.right-side {
+	flex: 1;
+}
+
+.right-side label {
+	display: block;
+	color: #fff;
+}
+
+.right-side input[type="text"],
+.right-side input[type="email"],
+.right-side input[type="password"] {
+	width: 100%;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border: none;
+	background-color: #fff;
+	border-radius: 0.25rem;
+	box-sizing: border-box;
+	color: #000;
+}
+
+.register-btn {
+	background-color: #007bff;
+	color: #fff;
+	padding: 0.5rem 2rem;
+	border: none;
+	border-radius: 0.25rem;
+	cursor: pointer;
+    
+}
+
+.register-btn:hover {
+	background-color: #00cc2c;
+}
+
+.back-btn {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	background-color: #fff;
+	color: #007bff;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 0.25rem;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+.back-btn:hover {
+    color: #000;
+	background-color: #0a61d1;
+}
